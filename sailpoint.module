@@ -1,0 +1,14 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function sailpoint_theme() {
+    $theme['sailpoint_design_template'] = [
+      'variables' => [
+        'pull_request' => NULL,
+      ],
+      'template' => 'sailpoint-design',
+    ];
+  
+    return $theme;
+  }

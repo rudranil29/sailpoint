@@ -1,0 +1,17 @@
+sailpoint.get_pullrequest:
+  path: '/api/github/pull-request'
+  defaults:
+    _controller: '\Drupal\sailpoint\Controller\SailpointController::get_pullrequest'
+    _title: 'List of pull request'
+  requirements:
+    _permission: 'access content'
+
+sailpoint.config_form:
+  path: '/sailpoint/config'
+  defaults:
+    _form: '\Drupal\sailpoint\Form\MyConfigForm'
+    _title: 'Github API Configuration'
+  requirements:
+    _permission: 'access administration pages'
+  options:  
+    _admin_route: TRUE 
