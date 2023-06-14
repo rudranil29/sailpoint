@@ -14,7 +14,7 @@ Using the language of your choice, write code that will use the GitHub API to re
 3. Now enable the module by go to "/admin/modules" and search for sailpoint module
 
 4. To Configure your API go to "/sailpoint/config" and update your API url and github token
-    ![Alt text](https://github.com/rudranil29/sailpoint/blob/mainimages/config.png)
+    ![Alt text](https://github.com/rudranil29/sailpoint/blob/main/images/config.png)
 
 5. Now got to /api/github/pull-request
     ![Alt text](https://github.com/rudranil29/sailpoint/blob/main/images/pull_request.png)
